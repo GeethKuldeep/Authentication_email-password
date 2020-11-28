@@ -12,7 +12,7 @@ class _ChatscreenState extends State<Chatscreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body:StreamBuilder(
-          stream: FirebaseFirestore.instance.collection('chats/tFu2GNS0PDF121ssOI0J/messages').snapshots(),
+          stream: FirebaseFirestore.instance.collection('chats/qalqhiuvuLD1d18MMz6F /messages').snapshots(),
           builder: (ctx,streamSnapshot){
             if(streamSnapshot.connectionState==ConnectionState.waiting){
               return Center(
